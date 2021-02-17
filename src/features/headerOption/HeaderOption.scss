@@ -1,0 +1,33 @@
+.header-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: gray;
+  cursor: pointer;
+  transition: color ease-in 200ms;
+  font-size: 18px;
+
+  &:hover {
+    color: black;
+  }
+
+  &__icon {
+  }
+
+  &__avatar {
+    object-fit: cover;
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 0.6em;
+    font-weight: 400;
+
+    @media all and (max-width: 1024px) {
+      display: none;
+    }
+  }
+}
