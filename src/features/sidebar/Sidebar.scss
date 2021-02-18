@@ -10,6 +10,10 @@
     margin-bottom: 10px;
     width: 72px !important;
     height: 72px !important;
+
+    > img {
+      object-fit: contain;
+    }
   }
 
   &__top {
@@ -34,7 +38,7 @@
       color: gray;
     }
 
-    img {
+    > img {
       margin-bottom: -35px;
       width: 100%;
       height: 60px;
